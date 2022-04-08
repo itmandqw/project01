@@ -1,0 +1,17 @@
+# 忽略所有的 .a文件
+*.a
+
+# 忽略所有的.a文件，但不包括test.a文件
+!test.a
+
+# 忽略当前目录下的TODO文件夹
+/TODO
+
+# 忽略任何目录为TODO文件夹
+TODO/
+
+# 忽略doc文件夹下的所有.txt文件   但是不忽略doc/sub/notes.text
+doc/*.txt
+
+# 忽略doc文件夹几所有子目录下的.txt文件
+doc/**/*.txt
